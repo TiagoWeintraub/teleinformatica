@@ -7,6 +7,9 @@ from mininet.node import OVSKernelSwitch
 from mininet.node import Node
 import argparse
 
+# Weintraub Tiago
+# Repositorio: https://github.com/TiagoWeintraub/teleinformatica.git
+
 def myNetwork(n_sucursales):
 
     net = Mininet( topo=None, build=False, ipBase='192.168.100.0/24')
